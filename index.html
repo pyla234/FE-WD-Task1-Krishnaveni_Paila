@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Responsive webpage for front-end task by Krishnaveni Paila."
+    />
+    <title>FE-WD Task 1 - Krishnaveni Paila</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- hero section -->
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Distinctio dolor ea exercitationem</h1>
+        <p>Consequatur aut hic similique adipisci occaecati eos aut.</p>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+      <div class="hero-image">
+        <img
+          src="assets/images/hero-section-image.png"
+          alt="Hero illustration"
+        />
+      </div>
+    </header>
+
+    <!-- blog section -->
+    <section class="blog-section">
+      <article class="blog-card">
+        <img
+          src="assets/images/blog_section_image1.jpg"
+          alt="Mountains"
+          style="width: 100%"
+        />
+        <div>
+          <h2>Nobis velit in aut velit fugiat natus</h2>
+          <p class="meta">Wed Jun 15 2021 | Emanuel Denesik</p>
+          <p class="preview">
+            Voluptatem beatae eius quo debitis at voluptas et quis maiores.
+          </p>
+          <p id="full-content-article-one" style="display: none">
+            Laboriosam voluptate odio sint excepturi quia ratione cupiditate
+            temporibus eligendi.
+          </p>
+          <a
+            href="javascript:;"
+            onclick="firstToggle()"
+            id="first_article_read_more"
+            style="cursor: pointer; display: inline-block; margin-top: 10px"
+            >Read more &gt;</a
+          >
+        </div>
+      </article>
+      <article class="blog-card">
+        <img
+          src="assets/images/blog_section_image2.jpg"
+          alt="nature"
+          style="width: 100%"
+        />
+        <div>
+          <h2>Read more from Lynda Ziemann</h2>
+          <p class="meta">Wed Jun 14 2021 | Lynda Ziemann</p>
+          <p class="preview">
+            Voluptatem dolorem quae illo quaerat cum pariatur suscipit non.
+          </p>
+          <p id="full-content-article-second" style="display: none">
+            Laboriosam voluptate odio sint excepturi quia ratione cupiditate
+            temporibus eligendi.
+          </p>
+          <a
+            href="javascript:;"
+            onclick="secondToggle()"
+            id="second_article_read_more"
+            style="cursor: pointer; display: inline-block; margin-top: 10px"
+            >Read more &gt;</a
+          >
+        </div>
+      </article>
+    </section>
+    <!-- newsletter section -->
+    <section class="newsletter">
+      <h2>Get our newsletter</h2>
+      <p>To join worldwide community</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="example@gmail.com" required />
+        <button type="submit">Send now</button>
+      </form>
+    </section>
+    <!-- script -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
